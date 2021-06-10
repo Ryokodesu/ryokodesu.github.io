@@ -1,0 +1,108 @@
+.portfolio {
+  margin: 0 2rem;
+}
+.portfolio .logo {
+  width: 15rem;
+}
+.portfolio .hello {
+  width: 100%;
+  margin: 2rem 0 0 0;
+}
+.portfolio .img {
+  margin: 0;
+  width: 33.3%;
+  margin-right: 2rem;
+}
+
+.portfolio .info {
+  background-color: #444d59;
+  color: white;
+}
+.jobtitle {
+  color: #919191;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 5px 0;
+}
+.iam {
+  font-size: 46px;
+    margin: 0;
+    position: relative;
+}
+
+.info{
+  position: relative;
+  padding: 3rem 0;
+}
+.info .left {
+  background-color: #4f5967;
+  width: 33.3%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.info .content{
+  z-index: 100;
+}
+
+.info .content .section .title {
+  width: 33.3%;
+}
+.info .content .section_title{
+  text-align: right;
+  margin: 2px 0.7rem 2rem 0;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffdf36;
+}
+
+.experience {
+  margin: 0 0 3rem 1rem;
+
+}
+.experience .exp_title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #becde2;
+}
+.experience .exp_company {
+  margin: 0.2rem 0;
+  color: #f4f8fd;
+}
+.experience .exp_time {
+  margin: 0;
+  color: #78818e;
+}
+
+.contacts {
+  padding: 4rem 0 7rem 0;
+  background-image: url("../imgs/bg2.PNG");
+  background-size: cover;
+}
+.contacts .sentence{
+  max-width: 25rem;
+  color: #9fa9b7;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 140%;
+}
+.contacts .button{
+  background-color: #fff;
+  padding: 1rem 4rem;
+  color: #10141b;
+  border-radius: 6px;
+  transition: .3s all;
+  border: solid 3px transparent;
+  cursor: pointer;
+
+}
+.contacts .button:hover{
+  /* background-color: #becde2; */
+  transform: translateY(-2px);
+  border: solid 3px #ffdf36;
+  /* color:white; */
+}

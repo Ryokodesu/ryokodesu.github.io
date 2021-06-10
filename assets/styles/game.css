@@ -1,0 +1,107 @@
+body {
+  background-color: #f5f5f5;
+}
+.mysvg{
+  width: 5rem;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+}
+
+.canvas {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#ryoko{
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  bottom: 0;
+}
+.canvas #ryoko #ryoko_left,
+.canvas #ryoko #ryoko_right{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  right: 0;
+  z-index: 995;
+}
+#ryoko #ryoko_right{
+
+}
+
+.gameover{
+  background-color: #4f5967;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: 800;
+}
+.game{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: 900;
+}
+
+.gameover .message{
+  font-size: 50px;
+  font-weight: 900;
+  color: #ffdf36;
+}
+.gameover .message2{
+  color: white;
+}
+.gameover .cta{
+  font-size: 30px;
+  font-weight: 600;
+  color: #4f5967;
+  background-color: white;
+  padding: 1rem 4rem;
+  margin: 2rem;
+  border-radius: 6px;
+  border: solid 1px transparent;
+}
+.gameover .back_home {
+  background-color: transparent;
+  text-decoration: none;
+  color: #8e98a7;
+  font-size: 20px;
+}
+
+.game .ground{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  opacity: .9;
+}
+.game{
+  background-image: url(../imgs/bg_game.png);
+  background-size: cover;
+}
+.game #antennas{
+  opacity: 1;
+}
